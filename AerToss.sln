@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AerToss", "AerToss\AerToss.csproj", "{13699351-DC50-4B10-B029-C226EBD3DA9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AerToss.Core", "AerToss.Core\AerToss.Core.csproj", "{F604D25F-58B1-4798-9A1A-043541051482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13699351-DC50-4B10-B029-C226EBD3DA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13699351-DC50-4B10-B029-C226EBD3DA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13699351-DC50-4B10-B029-C226EBD3DA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13699351-DC50-4B10-B029-C226EBD3DA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F604D25F-58B1-4798-9A1A-043541051482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F604D25F-58B1-4798-9A1A-043541051482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F604D25F-58B1-4798-9A1A-043541051482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F604D25F-58B1-4798-9A1A-043541051482}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E377203-80DE-46CB-8FDF-BBA232528DFB}
+	EndGlobalSection
+EndGlobal
