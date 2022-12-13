@@ -7,8 +7,35 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AerToss.styles.css" asp-append-version="true" />
+
+    <script src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"
+            type="text/javascript"
+            charset="UTF-8">
+    </script>
+
+    <script>
+        function GetMap() {
+            var map = new Microsoft.Maps.Map('#myMap', {
+                credentials: 'Your Bing Maps Key',
+                center: new Microsoft.Maps.Location(51.51067524141405, -0.11962017174751949)
+            });
+
+            var center = map.getCenter();
+
+            //Create custom Pushpin
+            var pin = new Microsoft.Maps.Pushpin(center, {
+                title: 'Microsoft',
+                subTitle: 'City Center',
+                text: '1'
+            });
+
+            //Add the pushpin to the map
+            map.entities.push(pin);
+        }
+    </script>
+
 </head>
-<body>
+<body onload="GetMap()">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
@@ -45,6 +72,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -71,6 +71,11 @@ app.UseEndpoints(endpoints =>
       name: "areas",
       pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
     );
+
+    endpoints.MapControllerRoute(
+      name: "packageDetails",
+      pattern: "Package/Details/{id}/{information}"
+    );
 });
 
 app.MapRazorPages();
