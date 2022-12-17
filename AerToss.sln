@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AerToss", "AerToss\AerToss.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AerToss.Core", "AerToss.Core\AerToss.Core.csproj", "{F604D25F-58B1-4798-9A1A-043541051482}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AerToss.Infrastructure", "AerToss.Infrastructure\AerToss.Infrastructure.csproj", "{02A3F039-0117-42DD-AB5B-8829A8D154B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AerToss.Infrastructure", "AerToss.Infrastructure\AerToss.Infrastructure.csproj", "{02A3F039-0117-42DD-AB5B-8829A8D154B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

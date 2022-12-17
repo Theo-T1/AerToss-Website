@@ -50,5 +50,19 @@ button.accept-policy {
 /*Custom Css*/
 
 #main-nav {
-    background-color: #dbfdff !important;
+    background-color: #CAE9FF !important;
+}
+
+a {
+    letter-spacing: 10px !important;
+}
+
+.nav-item {
+    background-color: #0466C8 !important;
+    border-color: #001233 !important;
+    border-radius: 10px !important;
+}
+
+.navbar-nav li {
+    margin: 1rem;
 }
