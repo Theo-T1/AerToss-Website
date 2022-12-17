@@ -1,30 +1,29 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AerToss.Areas.Shippments.Controllers
+namespace AerToss.Areas.Admin.Controllers
 {
-    [Area("Staff")]
-    public class ShippmentController : Controller
+    public class LocationsController : Controller
     {
-        // GET: ShippmentController
+        // GET: LocationsController
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: ShippmentController/Details/5
+        // GET: LocationsController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: ShippmentController/Create
+        // GET: LocationsController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: ShippmentController/Create
+        // POST: LocationsController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -39,13 +38,13 @@ namespace AerToss.Areas.Shippments.Controllers
             }
         }
 
-        // GET: ShippmentController/Edit/5
+        // GET: LocationsController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: ShippmentController/Edit/5
+        // POST: LocationsController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -60,13 +59,13 @@ namespace AerToss.Areas.Shippments.Controllers
             }
         }
 
-        // GET: ShippmentController/Delete/5
+        // GET: LocationsController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: ShippmentController/Delete/5
+        // POST: LocationsController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)

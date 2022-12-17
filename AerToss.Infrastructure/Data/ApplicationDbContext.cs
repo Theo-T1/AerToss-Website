@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Reflection.Emit;
-using AerToss.Core.Data.Models;
+using AerToss.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

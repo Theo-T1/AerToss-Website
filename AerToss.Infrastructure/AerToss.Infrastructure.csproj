@@ -22,4 +22,8 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AerToss.Core\AerToss.Core.csproj" />
+  </ItemGroup>
+
 </Project>
