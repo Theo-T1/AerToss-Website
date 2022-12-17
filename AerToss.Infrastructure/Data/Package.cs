@@ -19,7 +19,7 @@ namespace AerToss.Infrastructure.Data
         [Range(-180, 180)]
         public double Longitude { get; set; }
 
-        public bool DeliveryState { get; set; } = false;
+        public bool IsDelivered { get; set; } = false;
 
         [Required]
         public DateTime Date { get; set; }
