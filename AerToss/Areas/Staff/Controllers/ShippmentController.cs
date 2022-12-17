@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AerToss.Areas.Shippments.Controllers
 {
+    [Area("Staff")]
     public class ShippmentController : Controller
     {
         // GET: ShippmentController

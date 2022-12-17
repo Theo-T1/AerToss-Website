@@ -3,10 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AerToss.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class AccountsController : Controller
     {
         // GET: AccountController
-        public ActionResult Index()
+        public ActionResult All()
         {
             return View();
         }
@@ -30,7 +31,7 @@ namespace AerToss.Areas.Admin.Controllers
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(All));
             }
             catch
             {
@@ -51,7 +52,7 @@ namespace AerToss.Areas.Admin.Controllers
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(All));
             }
             catch
             {
@@ -72,7 +73,7 @@ namespace AerToss.Areas.Admin.Controllers
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(All));
             }
             catch
             {
