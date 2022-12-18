@@ -1,18 +1,74 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
+
+/*Custom Css*/
+
+.bg-white {
+    background-color: #001D3D !important;
+}
+
+
+#main-nav .container-fluid {
+    border-block: 3px solid #FDC500;
+    background-color: #dcedff;
+}
+
+ul:nth-child(1) .nav-item {
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color: #FFDD63;
+    border: 3px solid #4371b2;
+    border-radius: 2rem;
+    margin: 0.5rem;
+}
+
+    ul:nth-child(1) .nav-item:hover {
+        background-color: #001233;
+        border: 3px solid;
+        transition-duration: 0.2s;
+    }
+
+    ul:nth-child(1) .nav-item a {
+        color: black !important;
+    }
+
+        ul:nth-child(1) .nav-item a:hover {
+            color: white !important;
+            transition-duration: 0.2s;
+        }
+
+
+ul:nth-child(2) li {
+    background-color: #80b2ff;
+    margin: 0.5rem;
+}
+
+    ul:nth-child(2) li:hover {
+        background-color: #3485FF;
+        transition-duration: 0.2s;
+    }
+
+#main-nav-brand-img {
+    height: 4vw;
+}
+
+    #main-nav-brand-img:hover {
+        background-color: #adc2d9;
+        transition-duration: 0.5s;
+    }

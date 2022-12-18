@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using AerToss.Models;
+using AerToss.Views.Home;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AerToss.Controllers
@@ -15,7 +16,9 @@ namespace AerToss.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var model = new TestModel();
+            model.Testing = "Result";
+            return View(model);
         }
 
         public IActionResult Privacy()

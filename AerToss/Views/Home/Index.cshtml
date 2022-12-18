@@ -1,9 +1,14 @@
-﻿@{
+﻿@using AerToss.Views.Home
+@{
 	ViewData["Title"] = "Home Page";
 }
+
+@model TestModel
 
 <div>
 	<div id="myMap" style="position:relative; width:400px; height:400px;"></div>
 </div>
 
 <button onclick="GetMap()">Map</button>
+
+<button onClick="Testing(@{Html.Raw(Json.Serialize(Model.Testing.ToString()));})">DoSomething</button>
